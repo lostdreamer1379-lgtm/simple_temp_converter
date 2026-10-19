@@ -1,0 +1,26 @@
+div{
+    display: flexbox;
+    background-color: #2e2c2c;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+}
+Button{
+    background-color: #c82525;
+    border-radius:5px;
+    color: white;
+    padding: 10px 10px;
+    width:fit-content;
+    font-size: 10px;
+    margin: 7px 2px;
+    cursor: pointer;
+    transition:ease 0.4s;
+}
+Button:hover{
+    background-color: #25c835;
+}
+body{
+    background-color: #1e1e1e;
+    font-family: Arial, Helvetica, sans-serif;
+}

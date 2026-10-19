@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Website</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div>
+            <H1>Temperature Converter</H1>
+            <p>Enter a temperature: </p>
+            <input type="number" id="temperatureInput" placeholder="Enter temperature">
+            <select id="unitSelect">
+                <option value="celsius" id="celsius">Celsius</option>
+                <option value="fahrenheit" id="fahrenheit">Fahrenheit</option>
+            </select>
+            <button onclick="convert()">Convert</button>
+            <p id="conversionResult"></p>
+            <p id="result"></p>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
